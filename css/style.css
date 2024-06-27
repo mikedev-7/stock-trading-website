@@ -1,4 +1,4 @@
-@import url('https://cdnjs.cloudfare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import url('https://cdnjs.cloudfare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
 
@@ -53,6 +53,7 @@ section{
     max-width: 1200px ;
     margin: 0 auto;
 }
+
 
 .btn{
     display: inline-block;
@@ -124,6 +125,7 @@ section{
     padding: 1rem;
     border-radius: .5rem;
     transition: .2s linear;
+   
 }
 .navbar .nav a:hover{
     background: var(--gradient);
@@ -131,6 +133,10 @@ section{
 
 .navbar .nav a i{
     display: none;
+}
+
+.navbar .nav a span{
+    color: var(--white);
 }
 
 .home .flex{
@@ -281,6 +287,9 @@ section{
     line-height: 1.8;
 }
 
+.user__name{
+    color: var(--white);
+}
 .reviews .flex{
     display: flex;
     align-items: center;
