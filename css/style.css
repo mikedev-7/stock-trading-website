@@ -162,6 +162,9 @@ section{
 
 }
 
+.nav a i{
+    color: white;
+}
 .home .flex .image::after{
     content: '';
     position: absolute;
@@ -172,6 +175,12 @@ section{
     animation: animate2 4s cubic-bezier(.29,1,.26,1.12) infinite;
 
 }
+
+.stars i{
+    color: var(--white);
+}
+
+
 
 @keyframes animate1 {
     0%, 100%{
